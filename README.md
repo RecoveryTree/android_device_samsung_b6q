@@ -1,5 +1,8 @@
 # TWRP Device Tree for Samsung Galaxy Z Flip 6
 
+## Device Image 
+![image](https://github.com/user-attachments/assets/7ab98cdf-7cd2-426a-ae23-15db06f6923e)
+
 ## For Decryption
 Not Available now.
 
