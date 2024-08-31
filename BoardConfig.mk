@@ -90,7 +90,8 @@ BOARD_ROOT_EXTRA_FOLDERS := \
 	second_stage_resources \
 	spu \
 	system_ext \
-	vendor_dlkm
+	vendor_dlkm \
+        system_root
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
