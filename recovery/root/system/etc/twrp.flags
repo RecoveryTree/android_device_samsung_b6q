@@ -36,5 +36,6 @@
 /vm-bootsys	ext4		/dev/block/by-name/vm-bootsys
 /imagefv	emmc		/dev/block/by-name/imagefv
 
-# Removable storage
-/usb-otg	vfat		/dev/block/sde1	/dev/block/sde			flags=display="USB-OTG";storage;wipeingui;removable
+#VOLD
+/devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*   auto                   vfat    default                                              voldmanaged=usb:auto
+/devices/platform/soc/8804000.sdhci/mmc_host*           auto                   auto    default                                              voldmanaged=sdcard:auto
